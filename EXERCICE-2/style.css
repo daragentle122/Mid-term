@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+table, th, td {
+  width: 800px;
+  border: none;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+th {
+  text-align: start;
+  color: #fff;
+  background-color: rgb(29, 124, 69);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-1 {
+  background-color: rgb(247, 246, 246);
+}
+
+.color-2 {
+  background-color: gainsboro;
+}
